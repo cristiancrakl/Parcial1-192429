@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class NumeroMayor {
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         // Creamos un objeto Scanner para leer la entrada del usuario
         Scanner scanner = new Scanner(System.in);
